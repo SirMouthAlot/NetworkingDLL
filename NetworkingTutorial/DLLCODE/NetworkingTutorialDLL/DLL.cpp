@@ -35,11 +35,15 @@ void ClearConsole()
 
 DLL_OUT void InitServer(const char* IP, const int port)
 {
+	server_started = true;
+	server.InitServer(IP, port);
 }
 
 // Needs to take in IP and port
 DLL_OUT void InitClient(const char* IP, const int port, const char* name)
 {
+	client_started = true;
+	client.Init(IP, port, name, server_started);
 }
 
 DLL_OUT void SendPacketToServer(const char* message)

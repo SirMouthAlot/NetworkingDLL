@@ -21,7 +21,7 @@ struct ClientConnectionData
 
 	sockaddr_in addr;
 
-	const char* to_message()
+	std::string to_message()
 	{
 		std::string msg = "";
 		msg += "c";

@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(444,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(445,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Server.cpp
+D:\Documents\Repos\Networking\NetworkingTutorial\DLLCODE\NetworkingTutorialDLL\Client.h(1,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+D:\Documents\Repos\Networking\NetworkingTutorial\DLLCODE\NetworkingTutorialDLL\pch.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+D:\Documents\Repos\Networking\NetworkingTutorial\DLLCODE\NetworkingTutorialDLL\Server.cpp(108,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Documents\Repos\Networking\NetworkingTutorial\DLLCODE\NetworkingTutorialDLL\Server.cpp(160,92): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  NetworkingTutorialDLL.vcxproj -> D:\Documents\Repos\Networking\NetworkingTutorial\DLLCODE\NetworkingTutorialDLL\..\..\Assets\Plugins\NetworkingTutorialDLL.dll
